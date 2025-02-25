@@ -42,21 +42,21 @@ Familiarizarse con las especificaciones técnicas de los equipos de laboratorio 
 
 ### **Evidencias**
 - Lista con las 5 especificaciones más relevantes de cada equipo.
-- 
-- USRP 2920: -trabaja en un rango de fecuencia  50Mz a 2.2Ghz
-- con un ancho de banda de 20Mhz
-- tiene un formato de muestreo de 12 bits "convertidor de ADC a DAC"
-- tiene una potencia de transmicion maxima de +20dBm
-- tiene una sencibilidad de resepcion maxima de -15dBm
+  
+- USRP 2920: trabaja en un rango de fecuencia  50Mz a 2.2Ghz
+  con un ancho de banda de 20Mhz
+  tiene un formato de muestreo de 12 bits "convertidor de ADC a DAC"
+  tiene una potencia de transmicion maxima de +20dBm
+  tiene una sencibilidad de resepcion maxima de -15dBm
 
 - OSCILOSCOPIO R&S RTB2004: es un osciloscopio digital con taza de muesteo de 2.5GSa/s
-- trabaja con  canales analogicos
-- tiene un anco de banda de 70Mhz, 100Mhz, 200Mhz
-- es generador de patrnes y señales
-- tiene funciones avanzadas "FFT"
+  trabaja con  canales analogicos
+  tiene un anco de banda de 70Mhz, 100Mhz, 200Mhz
+  es generador de patrnes y señales
+  tiene funciones avanzadas "FFT"
 
 - ANNALIZADOR DE ESPECTROS R&S FPC1000:
-- 
+  
 - Realice una medición de piso de ruido normalizado.
 
 ---
