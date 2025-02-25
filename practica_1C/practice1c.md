@@ -35,19 +35,39 @@ Familiarizarse con las especificaciones técnicas de los equipos de laboratorio 
 
 ### **Preguntas Orientadoras**
 1. ¿Cuál es el rango de frecuencia del USRP 2920 y cómo se compara con el del analizador de espectros?
+
+   su rango de frecuencia es de 50Mhz a 2.2Ghz. este cubre un rango de frecuencias mayor en una banda superior lo que lo hace mas util para señales de radio definida por el sofware mientras que el analizador de espectro tiene mejor cobertura en fecuencias mas bajas desde los 5Khz y es mas util en el analicis de esatsa señales
+   
 2. ¿Qué parámetros del USRP 2920 se deben configurar para transmitir una señal en una frecuencia específica?
+   
+hay que definir la frecuencia portadora de la señal, ajustar tambien la potencia de salida del transmisor, el ancho de banda de muestreo y ya deoendiendo tambien qe ipo de señal se quiera transmitir 
+   
 3. ¿Cómo se configura el osciloscopio para medir la amplitud y la frecuencia de una señal?
+
+   se conecta a un canal la señal, configuramos la escala vertical y horizontal para evitar saturaciones y visualizar el periodo de a señal. y para medir la amplitud usamos los cursores verticales o tambien en la funcion de medicion de voltaje pico a pico. para la frecuencia se puede con la fncion de medicion o manualmente con f=1/T
+   
 4. ¿Qué diferencia hay entre medir una señal en el dominio del tiempo (osciloscopio) y en el dominio de la frecuencia (analizador de espectros)?
+
+en el osciloscopio se muesra como cambia la señal en fncion del tiempo y se usa para analizar la forma de onda y su amplitud. y en el analizador se muestra como se distribuye la energia de la señal en diferenes frecuencias 
+   
 5. ¿Cómo se mide el piso de ruido en el analizador de espectros? ¿Cómo afecta la frecuencia central, SPAN y RBW la medida de piso de ruido? ¿Por qué?
+
+
 
 ### **Evidencias**
 - Lista con las 5 especificaciones más relevantes de cada equipo.
   
-- USRP 2920: trabaja en un rango de fecuencia  50Mz a 2.2Ghz
+- USRP 2920:
+  trabaja en un rango de fecuencia  50Mz a 2.2Ghz
+  
   con un ancho de banda de 20Mhz
+  
   tiene un formato de muestreo de 12 bits "convertidor de ADC a DAC"
+  
   tiene una potencia de transmicion maxima de +20dBm
+  
   tiene una sencibilidad de resepcion maxima de -15dBm
+  
 
 - OSCILOSCOPIO R&S RTB2004: es un osciloscopio digital Y tactil con taza de muesteo de 2.5GSa/s
   
@@ -60,6 +80,24 @@ Familiarizarse con las especificaciones técnicas de los equipos de laboratorio 
   tiene funciones avanzadas "FFT"
 
 - ANNALIZADOR DE ESPECTROS R&S FPC1000:
+  trabaja en rango de frecuencia de 5Khz a 1Ghz
+
+  tiene un anco de banda de resolucion "RBW" desde 1hz hasta 3Mhz
+
+  tiene rango dinamico de 110dB para medicines precisas
+
+  tiene impedancia de entrada de 50 ohms con conector tipo N
+
+  la conectividad soporta USB, LAN y acceso remoto
+
+  **punto 3 **
+  USRP 2920: Rango de frecencia es de 68.75 a 2200 Mhz y su rango de ganancia de 0 a 31.5 dB
+  
+  OSCILOSCOPIO R&S RTB20: tiene un anco de banda de 70Mhz y resolucion de 10 bits,los tipos de
+  medida que tiene, alguna de ellas pueden ser medidas de voltae como maximo y minimo, valor RMS etc. tambien mediciones de tiempo fecuencia, periodo ancho de pulso entre otros
+  medidas de forma de onda y tambien otra como FFT.
+
+  - ANNALIZADOR DE ESPECTROS R&S FPC1000: el rando de frecuencia es de 5kHz a 1Ghz, tiene resolucion de y 
   
 - Realice una medición de piso de ruido normalizado.
 
