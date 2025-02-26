@@ -129,10 +129,24 @@ Generar y analizar señales en GNU Radio para entender cómo se comportan difere
 
 ### **Preguntas Orientadoras**
 1. ¿Cómo se puede explicar matemáticamente la diferencia entre una fuente de tipo flotante y una de tipo complejo?
+
+
+
 2. ¿Cómo afecta la forma de onda a la distribución de energía (potencia) en el dominio de la frecuencia?
+
+
+
 3. ¿Qué sucede con la señal en el dominio del tiempo y la frecuencia si se modifican los diferentes parámetros de la fuente? ¿Lo observado corresponde a lo esperado teóricamente?
+
+
+
 4. ¿Cómo se relaciona la amplitud de la señal con la potencia observada en el dominio de la frecuencia?
+
+
+
 5. ¿Qué diferencias se observan entre una señal senoidal y una señal cuadrada en el dominio de la frecuencia?
+
+
 
 ### **Evidencias**
 - Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuencia que evidencien cada una de las comparaciones realizadas.
