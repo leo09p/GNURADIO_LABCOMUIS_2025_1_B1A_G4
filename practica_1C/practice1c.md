@@ -130,23 +130,24 @@ Generar y analizar señales en GNU Radio para entender cómo se comportan difere
 ### **Preguntas Orientadoras**
 1. ¿Cómo se puede explicar matemáticamente la diferencia entre una fuente de tipo flotante y una de tipo complejo?
 
-
+una señal tipo flotante genera solo una señal (real), mientras que una compleja tiene dos componentes una en parte real y otra en imaginaria 
+la señal flotante se puede representar como x(t)=A*f(t) donde A es la amplitud mientras que la imaginaria se reprencenta como x(t)=A*e^ĵ(2pift+o) equivalente tambien en seno y coseno con una real y otra imaginaria 
 
 2. ¿Cómo afecta la forma de onda a la distribución de energía (potencia) en el dominio de la frecuencia?
 
-
+la forma de onda determina como se distribuye la energia en el especto. la senoidal pura consentra toda su energia en una unica frecuencia, la fundamental. la triangular tiene una distribucion de energia mas ancha 
 
 3. ¿Qué sucede con la señal en el dominio del tiempo y la frecuencia si se modifican los diferentes parámetros de la fuente? ¿Lo observado corresponde a lo esperado teóricamente?
 
-
+teoricamente si se cambia la frecuencia se observa un aumento o disminucion en la taza de oscilacion de la señal y un desplazamiento en el pico de la frecuencia. si por otro lado se modifica la amplitud se observa un crecimiento o disminucion en la magnitud de la señal en el tiempo y en la altura del pico en frecuencia. justo como pasa en la practica 
 
 4. ¿Cómo se relaciona la amplitud de la señal con la potencia observada en el dominio de la frecuencia?
 
-
+la potencia de una señal en el dominio de la frecuencia esta relacionada con el cuadrado de la amplitud en el tiempo. en el dominio de la frecuencia si se duplica la amplitud en el tiempo, la potencia esectral se cuadriplica
 
 5. ¿Qué diferencias se observan entre una señal senoidal y una señal cuadrada en el dominio de la frecuencia?
 
-
+la señal senoidal tiene un solo pico en su frecuencia. la señal cuadrada tiene multiples armonicos impares con amplitudes decrecientes 
 
 ### **Evidencias**
 - Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuencia que evidencien cada una de las comparaciones realizadas.
