@@ -18,22 +18,33 @@ Además, asumo plena responsabilidad por la información presentada en este docu
 Uso de IA: Utilicé ChatGPT como apoyo para mejorar la estructura del informe y revisar la gramática, pero todo el contenido técnico y el análisis fueron desarrollados por nosotros.
 
 Resumen
-1A:En esta práctica se exploró el uso de GNU Radio para la generación y procesamiento de señales, analizando su comportamiento en el dominio del tiempo y la frecuencia. Se configuraron bloques fundamentales como Signal Source, Throttle, QT GUI Frequency Sink y QT GUI Time Sink. Además, se estudiaron conceptos clave como la teoría de muestreo de Nyquist, interpolación y decimación. Se realizaron pruebas variando parámetros como frecuencia y amplitud, y se analizaron los efectos de una frecuencia de muestreo inadecuada.
+1A:En esta práctica se exploró el uso de GNU Radio para la generación y procesamiento de señales, analizando su comportamiento en el dominio del tiempo y la frecuencia. Se configuraron bloques 
+fundamentales como Signal Source, Throttle, QT GUI Frequency Sink y QT GUI Time Sink. Además, se estudiaron conceptos clave como la teoría de muestreo de Nyquist, interpolación y decimación.
+Se realizaron pruebas variando parámetros como frecuencia y amplitud, y se analizaron los efectos de una frecuencia de muestreo inadecuada.
 
-Palabras clave de 1A: GNUradio, procesamiento de señales, muestreo, interpolación, decimación.
+1B: Para esta práctica, además de GNU Radio, se utilizaron diversos equipos de telecomunicaciones, como el osciloscopio, el analizador de espectros y el dispositivo USRP 2920. Con estos instrumentos,
+se realizaron mediciones de potencia y amplitud a distintas frecuencias y ganancias, permitiendo analizar el comportamiento del sistema en diferentes condiciones.
+
+Palabras clave: GNUradio, procesamiento de señales, muestreo, interpolación, decimación.
+
 
 
 
 Introducción
 
-1A: El procesamiento digital de señales es un área fundamental en las telecomunicaciones, permitiendo manipular señales en distintos dominios para optimizar su transmisión y recepción. GNU Radio es una herramienta de software definida por radio (SDR) que facilita este procesamiento sin necesidad de hardware especializado.
+1A: El procesamiento digital de señales es un área fundamental en las telecomunicaciones, permitiendo manipular señales en distintos dominios para optimizar su transmisión y recepción.
+GNU Radio es una herramienta de software definida por radio (SDR) que facilita este procesamiento sin necesidad de hardware especializado
 
-En esta práctica se estudió el efecto del muestreo y los cambios en las señales al variar parámetros clave, abordando preguntas como:
+En esta práctica, además de GNU Radio, se emplearon diferentes equipos de telecomunicaciones como el osciloscopio, el analizador de espectros y el USRP 2920.
+Con estos dispositivos, se llevaron a cabo numerosas mediciones que permitieron caracterizar el comportamiento del sistema en distintas condiciones,
+evaluar la transmisión y recepción de señales, y comprender la importancia del análisis detallado en sistemas de telecomunicaciones
+
+En ela práctica 1A se estudió el efecto del muestreo y los cambios en las señales al variar parámetros clave, abordando preguntas como:
 	•	¿Qué ocurre cuando la frecuencia de muestreo no cumple el criterio de Nyquist?
 	•	¿Cómo afectan la interpolación y la decimación a una señal?
 	•	¿Cuál es la importancia del control de flujo en simulaciones sin hardware SDR?
 
-
+en la parte 1B 
 
 Procedimiento
 1A: Configuración del entorno en GNUradio
