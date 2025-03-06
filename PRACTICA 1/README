@@ -1,2 +1,77 @@
+Práctica 1A: GNU Radio para el Procesamiento de Señales
 
-cvb
+Integrantes
+	•	PRIMER INTEGRANTE - Código
+	•	SEGUNDO INTEGRANTE - Código
+Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones
+Universidad Industrial de Santander
+
+Fecha
+
+31 de diciembre de 2030
+
+Declaración de Originalidad y Responsabilidad
+
+Los autores de este informe certifican que el contenido aquí presentado es original y ha sido elaborado de manera independiente. Se han utilizado fuentes externas únicamente como referencia y han sido debidamente citadas.
+
+Asimismo, los autores asumen plena responsabilidad por la información contenida en este documento.
+
+Uso de IA: Se utilizó ChatGPT para la estructuración del informe y revisión gramatical, pero el contenido técnico fue desarrollado íntegramente por los autores.
+
+⸻
+
+Resumen
+
+En esta práctica se exploró el uso de GNU Radio para la generación y procesamiento de señales, analizando su comportamiento en el dominio del tiempo y la frecuencia. Se configuraron bloques fundamentales como Signal Source, Throttle, QT GUI Frequency Sink y QT GUI Time Sink. Además, se estudiaron conceptos clave como la teoría de muestreo de Nyquist, interpolación y decimación. Se realizaron pruebas variando parámetros como frecuencia y amplitud, y se analizaron los efectos de una frecuencia de muestreo inadecuada.
+
+Palabras clave: GNU Radio, procesamiento de señales, muestreo, interpolación, decimación.
+
+⸻
+
+Introducción
+
+El procesamiento digital de señales es un área fundamental en las telecomunicaciones, permitiendo manipular señales en distintos dominios para optimizar su transmisión y recepción. GNU Radio es una herramienta de software definida por radio (SDR) que facilita este procesamiento sin necesidad de hardware especializado.
+
+En esta práctica se estudió el efecto del muestreo y los cambios en las señales al variar parámetros clave, abordando preguntas como:
+	•	¿Qué ocurre cuando la frecuencia de muestreo no cumple el criterio de Nyquist?
+	•	¿Cómo afectan la interpolación y la decimación a una señal?
+	•	¿Cuál es la importancia del control de flujo en simulaciones sin hardware SDR?
+
+⸻
+
+Procedimiento
+
+Configuración del entorno en GNU Radio
+	1.	Se inició GNU Radio y se creó un diagrama de flujo con los siguientes bloques:
+	•	Signal Source: Genera señales en distintas formas de onda.
+	•	Throttle: Controla el flujo de datos en ausencia de hardware.
+	•	QT GUI Frequency Sink: Muestra el espectro de frecuencia.
+	•	QT GUI Time Sink: Muestra la señal en el dominio del tiempo.
+	2.	Se establecieron variables para controlar parámetros como frecuencia y amplitud, usando QT GUI Range.
+
+Demostración del Teorema de Nyquist
+
+Se generaron señales senoidales y se estudió el efecto de la frecuencia de muestreo en la visualización de la señal. Se compararon casos con:
+	•	Frecuencia de muestreo mayor al doble de la frecuencia de la señal (cumpliendo Nyquist).
+	•	Frecuencia de muestreo insuficiente, observando aliasing.
+
+Efectos de la Interpolación y Decimación
+	•	Interpolación: Se aumentó la tasa de muestreo y se evidenció cómo la señal se suaviza.
+	•	Decimación: Se redujo la tasa de muestreo, observando una reducción en la resolución temporal y posibles efectos de aliasing.
+
+Capturas y Análisis
+
+Se tomaron capturas de diferentes configuraciones y resultados obtenidos, evidenciando los cambios en la señal. (Ver archivo de capturas) ￼.
+
+⸻
+
+Conclusiones
+	•	Se verificó la importancia del teorema de Nyquist en el muestreo de señales.
+	•	Se comprobó que la interpolación suaviza la señal y la decimación reduce su resolución.
+	•	El uso de GNU Radio facilita la simulación y análisis de señales sin necesidad de hardware SDR.
+
+⸻
+
+Referencias
+
+[Proakis, 2014] J. Proakis, M. Salehi. Fundamentals of communication systems. 2 ed. England: Pearson Education Limited, 2014. p. 164-165, 346.
