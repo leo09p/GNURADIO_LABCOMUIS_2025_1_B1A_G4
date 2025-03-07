@@ -26,8 +26,9 @@ Se realizaron pruebas variando parámetros como frecuencia y amplitud, y se anal
 
 1B: Para esta práctica, además de GNU Radio, se utilizaron diversos equipos de telecomunicaciones, como el osciloscopio, el analizador de espectros y el dispositivo USRP 2920. Con estos instrumentos,
 se realizaron mediciones de potencia y amplitud a distintas frecuencias y ganancias, permitiendo analizar el comportamiento del sistema en diferentes condiciones.
-
-Palabras clave: GNUradio, procesamiento de señales, muestreo, interpolación, decimación.
+ 1C:Esta práctica abordó la medición de potencia y frecuencia en sistemas de radio definidos por software, empleando GNU Radio, un osciloscopio y un analizador de espectros. Se analizaron señales en los dominios del tiempo y la frecuencia, evaluando parámetros como ganancia, potencia, ancho de banda y relación señal a ruido (SNR). Se compararon los resultados obtenidos en simulación con los experimentales.
+ 
+Palabras clave: GNUradio, procesamiento de señales, muestreo, interpolación, decimación,Relación señal a ruido (SNR), Ganancia, Frecuencia.
 
 
 
@@ -45,7 +46,8 @@ En la práctica 1A se estudió el efecto del muestreo y los cambios en las seña
 	•	¿Qué ocurre cuando la frecuencia de muestreo no cumple el criterio de Nyquist?
 	•	¿Cómo afectan la interpolación y la decimación a una señal?
 	•	¿Cuál es la importancia del control de flujo en simulaciones sin hardware SDR?
-En la parte 1B 
+
+En telecomunicaciones, comprender el comportamiento de las señales es clave para una transmisión eficiente. Se utilizó el SDR USRP 2920 y el analizador de espectros R&S FPC1000 para evaluar su rango de frecuencias, además de configurar parámetros en GNU Radio y medir señales con un osciloscopio. También se estudió el concepto de piso de ruido y su relación con factores como la frecuencia central, el SPAN y la RBW, fundamentales para la detección de señales débiles.
 
 **Procedimiento**
 
@@ -89,19 +91,24 @@ el tiempo es corto se analiza solo una parte de la señal y no un comportamiento
 
  en el primer caso con fc=200Mhz fe una relación aproximada en cada uno de los subcasos medidos ya que la amplitud en el osciloscopio es ligeramente mayor a la
 generada en el pc. mientras que en los demás casos como donde fc=300Mhz la medida de la señal es aproximadamente el doble y en fc=400Mhz es el cuádruple de la
-señal generada en el pc. esto se debe a que la frecuencia portadora y la ganancia ya que a medida que la frecuencia aumenta las perdidas pueden ser mayores y 
-al aumentar las ganancias, satura la señal
+señal generada en el pc. esto se debe a que la frecuencia portadora y la ganancia ya que a medida que la frecuencia aumenta las perdidas pueden ser mayores y al aumentar las ganancias, satura la señal
 
 Para la segunda actividad tenemos la Medida de atenuación de un cable coaxial donde se usaba el analizador de espectros para llenar la siguuente tabla obteniendo diferentes ganancias y calculando luego una grafica de potencia
 ![tabla2](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/practica_1B/captura%20tablab2%20.png)
 ![grafica1](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/practica_1B/GRAFICAb2.png)
 
+
+
+Para llevar a cabo esta práctica, se realizaron tres actividades principales: la revisión y configuración de los equipos de medición, la simulación de señales en GNU Radio y la transmisión y análisis de señales con el USRP 2920.  los pasos a seguir con la actividad se encuentran en su respectiva carpeta 
+cabe acalrar que no se desarrollo en 100% de la actividad propuesta. 
+
+
 Conclusiones
-1A:
 	•	Se verificó la importancia del teorema de Nyquist en el muestreo de señales.
 	•	Se comprobó que la interpolación suaviza la señal y la decimación reduce su resolución.
 	•	El uso de GNU Radio facilita la simulación y análisis de señales sin necesidad de hardware SDR.
 
+esta práctica permitió explorar las simulaciones de señales y analizar los factores que afectan su calidad, como pérdidas en cables coaxiales, desajustes de impedancia e interferencias. Se propusieron soluciones como el uso de cables de mejor calidad y amplificadores para optimizar la transmisión. Además, se reafirmó la importancia de respetar el teorema de Nyquist para evitar aliasing y asegurar una representación precisa de las señales.
 
 Referencias
-1A: Elaborado con informacion del moodle [UIS, 2025] Universidad Industrial de Santander. Práctica 1A: GNU Radio para el Procesamiento de Señales. Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones, 2025.
+Elaborado con informacion del moodle [UIS, 2025] Universidad Industrial de Santander. Práctica 1A: GNU Radio para el Procesamiento de Señales. Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones, 2025.
