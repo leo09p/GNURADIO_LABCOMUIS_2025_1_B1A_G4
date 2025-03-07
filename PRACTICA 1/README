@@ -70,6 +70,23 @@ Parav la practica 1B nos apoyamos en la gia para realizar la actividad y medir c
 donde los resultados fueron de la siguiente manera: 
 <img src="Practica_1B/imagen_2025-03-06_181449587.png" >
 
+donde al final se obtuvo unformacion para responder a la preguntas:
+1). ¿De que depende la precisión de medida en el osciloscopio?
+la precision depende de varios factores. en primer lugar la resolución y sensibilidad del mismo osciloscopio. luego la escala vertical también es importante
+ya que al tener la señal muy pequeña se pierden detalles de esta misma y debe ajustarse para tener errores bajos. si la escala es pequeña la señal se recorta
+y se satura y genera mediciones inexactas. en la escala horizontal si el tiempo es demasiado grande se pueden perder detalles de variaciones rápidas y si
+el tiempo es corto se analiza solo una parte de la señal y no un comportamiento general.
+
+2). 2. Determine el porcentaje de amplitud de la señal recibida con respecto a la señal generada desde el PC. Es igual para todos los casos, en caso de ser diferente
+¿a que atribuye esta caída de tensión?
+
+ en el primer caso con fc=200Mhz fe una relación aproximada en cada uno de los subcasos medidos ya que la amplitud en el osciloscopio es ligeramente mayor a la
+generada en el pc. mientras que en los demás casos como donde fc=300Mhz la medida de la señal es aproximadamente el doble y en fc=400Mhz es el cuádruple de la
+señal generada en el pc. esto se debe a que la frecuencia portadora y la ganancia ya que a medida que la frecuencia aumenta las perdidas pueden ser mayores y 
+al aumentar las ganancias, satura la señal
+
+Para la segunda actividad tenemos la Medida de atenuación de un cable coaxial donde se usaba el analizador de espectros para llenar la siguuente tabla obteniendo 
+diferentes ganancias 
 
 
 Conclusiones
