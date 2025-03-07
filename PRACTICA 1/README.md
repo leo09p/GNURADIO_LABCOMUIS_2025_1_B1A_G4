@@ -17,7 +17,7 @@ Además, asumo plena responsabilidad por la información presentada en este docu
 
 Uso de IA: Utilicé ChatGPT como apoyo para mejorar la estructura del informe y revisar la gramática, pero todo el contenido técnico y el análisis fueron desarrollados por nosotros.
 
-*Resumen*
+*Resumen*\
 1A:En esta práctica se exploró el uso de GNU Radio para la generación y procesamiento de señales, analizando su comportamiento en el dominio del tiempo y la frecuencia. Se configuraron bloques 
 fundamentales como Signal Source, Throttle, QT GUI Frequency Sink y QT GUI Time Sink. Además, se estudiaron conceptos clave como la teoría de muestreo de Nyquist, interpolación y decimación.
 Se realizaron pruebas variando parámetros como frecuencia y amplitud, y se analizaron los efectos de una frecuencia de muestreo inadecuada.
