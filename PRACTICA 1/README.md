@@ -1,7 +1,8 @@
 Práctica 1: GNUradio para el Procesamiento de Señales
 ###
 Integrantes
-Edwar Alexis Diaz Rodriguez - 2194682
+
+Edwar Alexis Diaz Rodriguez - 2194682 \
 Leonel Ricardo Araque Carreño - 2204224
 Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones
 Universidad Industrial de Santander
