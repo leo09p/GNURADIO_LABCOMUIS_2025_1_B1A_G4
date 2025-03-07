@@ -41,12 +41,11 @@ En esta práctica, además de GNU Radio, se emplearon diferentes equipos de tele
 Con estos dispositivos, se llevaron a cabo numerosas mediciones que permitieron caracterizar el comportamiento del sistema en distintas condiciones,
 evaluar la transmisión y recepción de señales, y comprender la importancia del análisis detallado en sistemas de telecomunicaciones
 
-En ela práctica 1A se estudió el efecto del muestreo y los cambios en las señales al variar parámetros clave, abordando preguntas como:
+En la práctica 1A se estudió el efecto del muestreo y los cambios en las señales al variar parámetros clave, abordando preguntas como:
 	•	¿Qué ocurre cuando la frecuencia de muestreo no cumple el criterio de Nyquist?
 	•	¿Cómo afectan la interpolación y la decimación a una señal?
 	•	¿Cuál es la importancia del control de flujo en simulaciones sin hardware SDR?
-
-en la parte 1B 
+En la parte 1B 
 
 **Procedimiento**
 
