@@ -69,7 +69,7 @@ Efectos de la Interpolación y Decimación
 
 Parav la practica 1B nos apoyamos en la gia para realizar la actividad y medir ciertas amplitudes del osciloscopio con frecuencias y ganacias variables
 donde los resultados fueron de la siguiente manera: 
-<img src="Practica_1B/imagen_2025-03-06_181449587.png" alt="tabla1" width="300" height="150">
+
 ![tabla1](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/practica_1B/imagen_2025-03-06_181449587.png)
 donde al final se obtuvo unformacion para responder a la preguntas:
 1). ¿De que depende la precisión de medida en el osciloscopio?
@@ -86,9 +86,9 @@ generada en el pc. mientras que en los demás casos como donde fc=300Mhz la medi
 señal generada en el pc. esto se debe a que la frecuencia portadora y la ganancia ya que a medida que la frecuencia aumenta las perdidas pueden ser mayores y 
 al aumentar las ganancias, satura la señal
 
-Para la segunda actividad tenemos la Medida de atenuación de un cable coaxial donde se usaba el analizador de espectros para llenar la siguuente tabla obteniendo 
-diferentes ganancias 
-
+Para la segunda actividad tenemos la Medida de atenuación de un cable coaxial donde se usaba el analizador de espectros para llenar la siguuente tabla obteniendo diferentes ganancias y calculando luego una grafica de potencia
+![tabla2](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/practica_1B/captura%20tablab2%20.png)
+![grafica1](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/practica_1B/GRAFICAb2.png)
 
 Conclusiones
 1A:
