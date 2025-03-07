@@ -69,8 +69,8 @@ Efectos de la Interpolación y Decimación
 
 Parav la practica 1B nos apoyamos en la gia para realizar la actividad y medir ciertas amplitudes del osciloscopio con frecuencias y ganacias variables
 donde los resultados fueron de la siguiente manera: 
-<img src="Practica_1B/imagen_2025-03-06_181449587.png" alt="cos_float" width="300" height="150">
-
+<img src="Practica_1B/imagen_2025-03-06_181449587.png" alt="tabla1" width="300" height="150">
+![tabla1](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/practica_1B/imagen_2025-03-06_181449587.png)
 donde al final se obtuvo unformacion para responder a la preguntas:
 1). ¿De que depende la precisión de medida en el osciloscopio?
 la precision depende de varios factores. en primer lugar la resolución y sensibilidad del mismo osciloscopio. luego la escala vertical también es importante
