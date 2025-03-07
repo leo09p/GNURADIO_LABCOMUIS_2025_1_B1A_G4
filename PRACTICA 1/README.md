@@ -48,7 +48,8 @@ En ela práctica 1A se estudió el efecto del muestreo y los cambios en las señ
 
 en la parte 1B 
 
-Procedimiento
+**Procedimiento**
+
 1A: Configuración del entorno en GNUradio
 	1.	Se inició GNUradio y se creó un diagrama de flujo con los siguientes bloques:
 	•	Signal Source: Genera señales en distintas formas de onda.
@@ -56,17 +57,19 @@ Procedimiento
 	•	QT GUI Frequency Sink: Muestra el espectro de frecuencia.
 	•	QT GUI Time Sink: Muestra la señal en el dominio del tiempo.
 	2.	Se establecieron variables para controlar parámetros como frecuencia y amplitud, usando QT GUI Range.
+ ![imagen1](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/Practica_1A/captura1.png?raw=true)
 
 Demostración del Teorema de Nyquist
 
 Se generaron señales senoidales y se estudió el efecto de la frecuencia de muestreo en la visualización de la señal. Se compararon casos con:
 	•	Frecuencia de muestreo mayor al doble de la frecuencia de la señal (cumpliendo Nyquist).
 	•	Frecuencia de muestreo insuficiente, observando aliasing.
+ ![imagen2](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/Practica_1A/captura6_2.png?raw=true)
 
 Efectos de la Interpolación y Decimación
 	•	Interpolación: Se aumentó la tasa de muestreo y se evidenció cómo la señal se suaviza.
 	•	Decimación: Se redujo la tasa de muestreo, observando una reducción en la resolución temporal y posibles efectos de aliasing.
-
+![imagen3](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/Practica_1A/CAPTURA1_4.png?raw=true)
 
 Parav la practica 1B nos apoyamos en la gia para realizar la actividad y medir ciertas amplitudes del osciloscopio con frecuencias y ganacias variables
 donde los resultados fueron de la siguiente manera: 
