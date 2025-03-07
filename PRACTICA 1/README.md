@@ -58,20 +58,23 @@ en la parte 1B
 	•	QT GUI Time Sink: Muestra la señal en el dominio del tiempo.
 	2.	Se establecieron variables para controlar parámetros como frecuencia y amplitud, usando QT GUI Range.
  ![imagen1](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/Practica_1A/captura1.png?raw=true)
+ En esta captura se pueden visualizar los bloques configurados en GNU Radio, la señal generada y cómo se representan en el dominio del tiempo y frecuencia,se muestra la señal de referencia antes de aplicar transformaciones.
 
+Efectos de la Interpolación y Decimación
+	•	Interpolación: Se aumentó la tasa de muestreo y se evidenció cómo la señal se suaviza.
+	•	Decimación: Se redujo la tasa de muestreo, observando una reducción en la resolución temporal y posibles efectos de aliasing.
+![imagen3](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/Practica_1A/CAPTURA1_4.png?raw=true)
+ En esta captura se pueden observar cambios en la forma de onda y el espectro de frecuencia debido a la interpolación o decimación. Un aumento en la tasa de muestreo suaviza la señal, mientras que una disminución puede generar aliasing o pérdida de información.
+ 
 Demostración del Teorema de Nyquist
 
 Se generaron señales senoidales y se estudió el efecto de la frecuencia de muestreo en la visualización de la señal. Se compararon casos con:
 	•	Frecuencia de muestreo mayor al doble de la frecuencia de la señal (cumpliendo Nyquist).
 	•	Frecuencia de muestreo insuficiente, observando aliasing.
  ![imagen2](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/Practica_1A/captura6_2.png?raw=true)
+Esta captura se muestra una señal muestreada en puntos discretos. Si la frecuencia de muestreo es mayor o igual al doble de la frecuencia de la señal, no hay aliasing. Si es menor, se observa solapamiento en el dominio de la frecuencia, lo que valida el Teorema de Nyquist.
 
-Efectos de la Interpolación y Decimación
-	•	Interpolación: Se aumentó la tasa de muestreo y se evidenció cómo la señal se suaviza.
-	•	Decimación: Se redujo la tasa de muestreo, observando una reducción en la resolución temporal y posibles efectos de aliasing.
-![imagen3](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/Practica_1A/CAPTURA1_4.png?raw=true)
-
-Parav la practica 1B nos apoyamos en la gia para realizar la actividad y medir ciertas amplitudes del osciloscopio con frecuencias y ganacias variables
+Parav la practica 1B nos apoyamos en la guia para realizar la actividad y medir ciertas amplitudes del osciloscopio con frecuencias y ganacias variables
 donde los resultados fueron de la siguiente manera: 
 
 ![tabla1](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/PRACTICA%201/practica_1B/imagen_2025-03-06_181449587.png)
