@@ -46,7 +46,7 @@ filtrar las frecuencias altas de una señal suaviza su forma de onda, reduce det
 
 -¿Qué sucede al filtrar muy cerca de la frecuencia fundamental de la señal?
 
-puede afectar mucho su forma y contenido, si se elimina o atenúa demasiado la señal pierde la estructura principal y se distorsiona. 
+Puede afectar mucho su forma y contenido, si se elimina o atenúa demasiado la señal pierde la estructura principal y se distorsiona. 
 
 -¿Cuál es el efecto de filtrar las frecuencias bajas de una señal periódica?
 
@@ -58,13 +58,16 @@ Los primeros armónicos son los responsables de darle la estructura a la señal,
 
 -Explique el fenómeno de la desviación de frecuencia en una señal. Puede hacerlo con al menos dos casos.
 
-
+La desviación de frecuencia ocurre cuando la frecuencia instantánea de una señal cambia con el tiempo, en una señal modulada en frecuencia, la desviación de frecuencia está controlada por la amplitud de la señal moduladora, En sistemas de comunicación, pequeñas variaciones en el oscilador como el ruido de fase o inestabilidad del oscilador pueden provocar desviaciones no deseadas en la frecuencia, afectando la calidad de la señal recibida. 
 
 -Observe cómo se degrada la señal al aumentar los niveles de ruido. Analice su comportamiento en el dominio del tiempo y la frecuencia para al menos dos formas de onda distintas.
-
-
+Señal senoidal: En el dominio del tiempo, el ruido aparece como una perturbación aleatoria superpuesta a la onda, dificultando la identificación de su frecuencia original. En el dominio de la frecuencia, el espectro de la señal se ensancha y pueden aparecer componentes no deseadas.
+Señal cuadrada: En el dominio del tiempo, los bordes de la señal se vuelven menos definidos y se observan fluctuaciones aleatorias. En el dominio de la frecuencia, los armónicos característicos de la onda cuadrada se ven afectados, y puede haber pérdida de componentes importantes.
+Señal triangular:el ruido altera las transiciones suaves de la onda triangular en el tiempo y ensucia su espectro, dificultando su identificación y recuperación en niveles altos de interferencia.
 
 -¿Cómo se puede mejorar la relación señal a ruido en una señal? Demuestre con un ejemplo gráfico y determine el umbral de ruido con el cual es posible recuperar cada forma de onda utilizando únicamente filtrado.	
+Se puede mejorar aplicando filtrado pasabajos para reducir el ruido de alta frecuencia o promediado temporal para suavizar las variaciones aleatorias.
+
 ### Evidencia
 
 *(Adjuntar las evidencias de la práctica en el Aula Virtual: capturas de pantalla, observaciones, cálculos o mediciones preliminares)*
