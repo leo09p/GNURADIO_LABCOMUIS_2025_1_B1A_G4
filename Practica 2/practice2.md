@@ -41,15 +41,30 @@ Familiarizarse con algunos fenómenos de canal en un ambiente simulado.
 
 ### Preguntas Orientadoras
 
-- ¿Cuál es el efecto de filtrar las frecuencias altas de una señal?
-- ¿Qué sucede al filtrar muy cerca de la frecuencia fundamental de la señal?
-- ¿Cuál es el efecto de filtrar las frecuencias bajas de una señal?
-- ¿Qué ocurre al eliminar armónicos de una señal?
-- ¿Qué efecto tiene la desviación de frecuencia en la señal recibida? ¿Qué efecto(s) produce el filtro cuando la señal recibida se ve afectada por desviación de frecuencia?
-- ¿Cómo cuantificar la degradación de la señal al aumentar los niveles de ruido?
-- ¿Cómo se puede mejorar la relación señal a ruido en una señal?
-- ¿Cómo podría cuantificar la calidad de la señal recibida? Considere el caso de señales analógicas y digitales.
+-¿Cuál es el efecto de filtrar las frecuencias altas de una señal periódica?
+filtrar las frecuencias altas de una señal suaviza su forma de onda, reduce detalles y bordes pronunciados y puede ayudar a eliminar ruido pero también degradar la calidad de la información contenida en la señal
 
+-¿Qué sucede al filtrar muy cerca de la frecuencia fundamental de la señal?
+
+puede afectar mucho su forma y contenido, si se elimina o atenúa demasiado la señal pierde la estructura principal y se distorsiona. 
+
+-¿Cuál es el efecto de filtrar las frecuencias bajas de una señal periódica?
+
+se eliminaran componentes de baja frecuencia lo que provoca que la señal resultante tenga cambios más  violentos, la señal se vuelve menos suave y más oscilatoria ya que predominarán frecuencias más altas 
+
+-¿Qué ocurre al eliminar los primeros armónicos de la señal?
+
+Los primeros armónicos son los responsables de darle la estructura a la señal, si se eliminan solo algunos puede que se suavice y mantenga su forma parecida a la original. si se eliminan muchos la señal puede ser irreconocible respecto a la original. los primeros armónicos contienen gran parte de la energía de la señal y eliminarlos reduce su amplitud y faceta el contenido espectral
+
+-Explique el fenómeno de la desviación de frecuencia en una señal. Puede hacerlo con al menos dos casos.
+
+
+
+-Observe cómo se degrada la señal al aumentar los niveles de ruido. Analice su comportamiento en el dominio del tiempo y la frecuencia para al menos dos formas de onda distintas.
+
+
+
+-¿Cómo se puede mejorar la relación señal a ruido en una señal? Demuestre con un ejemplo gráfico y determine el umbral de ruido con el cual es posible recuperar cada forma de onda utilizando únicamente filtrado.	
 ### Evidencia
 
 *(Adjuntar las evidencias de la práctica en el Aula Virtual: capturas de pantalla, observaciones, cálculos o mediciones preliminares)*
