@@ -71,6 +71,8 @@ Se puede mejorar aplicando filtrado pasabajos para reducir el ruido de alta frec
 ### Evidencia
 
 ![imagen1](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%201/captura2A2.png)
+![imagen2](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%201/captura2A52.png)
+![imagen3](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%201/captura2A66.png)
 
 ---
 
@@ -94,20 +96,33 @@ Familiarizarse con los fenómenos de un canal alámbrico real en el dominio del 
 ### Preguntas Orientadoras
 
 - ¿Cuál es el efecto del ruido sobre la amplitud de las señales medidas en el osciloscopio? ¿Conservan las mismas relaciones que se evidencian en la simulación?
+
+  Al comparar ambas imágenes, se nota que la amplitud máxima y mínima de la señal se mantienen constantes. Esto significa que el ruido no está afectando mucho la amplitud general de la señal. En otras palabras, el canal de transmisión no está causando una atenuación significativa ni alterando la relación de amplitudes que se esperaba según la simulación.
+
 - ¿La relación señal a ruido creada intencionalmente en el computador se amplifica o se reduce en la señal observada en el osciloscopio?
+  Al observar las señales, la envolvente y la amplitud se mantienen prácticamente sin cambios. Esto confirma que el SNR sigue siendo el mismo, sin amplificación ni reducción significativa en comparación con la simulación. El canal no ha añadido un ruido excesivo que afecte la señal.
 - Demuestre ¿cómo se puede mejorar la relación señal a ruido en una señal?
+
+  Mejorar la relación señal a ruido (SNR) requiere un equilibrio entre aumentar la potencia de la señal y reducir lo mayor posible el ruido en el sistema.
+  
 - ¿Cómo se evidencia el fenómeno de desviación de frecuencia en el osciloscopio? Evidenciar al menos con dos formas de onda.
+
+podemos ver claramente cómo tanto la onda triangular como la cuadrada mantienen su amplitud constante, pero su frecuencia cambia con el tiempo. Esto indica un desplazamiento en la portadora, un fenómeno típico de la modulación en frecuencia (FM). 
+
 - Determine la afectación de un medio de transmisión coaxial (usar cables largos) sobre una señal periódica operando a las capacidades máximas de muestreo del USRP.
-- 
+  Al usar un cable coaxial largo, la señal pierde amplitud debido a la atenuación, causada por la resistencia y capacitancia del cable. Este efecto es más notable a altas frecuencias y en el límite de muestreo del USRP, ya que la señal se debilita progresivamente a lo largo de la transmisión.
+  
   - **NOTA:** La frecuencia de transmisión no debe superar los 500 MHz para ser observada en el osciloscopio. Para el experimento, considere las relaciones de muestreo correspondientes.
 - Usando cables coaxiales de diferentes longitudes, ¿cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida?
+  A mayor distancia entre el transmisor y el receptor, la amplitud de la señal medida disminuye debido a la atenuación introducida por el cable coaxial. Esta pérdida se debe a la resistencia y capacitancia del cable, que aumentan con la longitud, disipando energía y afectando más a señales de alta frecuencia.
 - Usando antenas, ¿cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? ¿Es posible compensar el fenómeno?
+  Al aumentar la distancia entre el transmisor y el receptor, la amplitud de la señal medida disminuye debido a la dispersión y absorción de la energía en el espacio. En la primera medición (23 cm), la amplitud es de 82.74 mV, mientras que en la segunda (46 cm), la amplitud cae a 33.39 V, lo que indica una atenuación significativa.Este fenómeno puede compensarse aumentando la potencia de transmisión, utilizando antenas de mayor ganancia o incorporando amplificadores de señal en el receptor para recuperar parte de la energía perdida.
 - ¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?
-
+El cable corto es la mejor opción en términos de calidad de señal, ya que minimiza la atenuación y mantiene la amplitud original.
 ### Evidencia
-
-*(Adjuntar las evidencias de la práctica en el Aula Virtual: capturas de pantalla, observaciones, cálculos o mediciones preliminares)*
-
+![imagena5c](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%202/act2P5cuadrada_2.jpg)
+![imagena5t](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%202/Act2P5triang_2.jpg)
+![imagena7](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%202/Act2P7_46cm.jpg)
 ---
 
 ## Actividad 3: Fenómenos de canal en el analizador de espectro
