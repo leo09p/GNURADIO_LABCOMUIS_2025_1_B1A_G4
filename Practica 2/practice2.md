@@ -70,7 +70,7 @@ Se puede mejorar aplicando filtrado pasabajos para reducir el ruido de alta frec
 
 ### Evidencia
 
-![imagen1].(https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%201/captura2A2.png)
+![imagen1](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%201/captura2A2.png)
 
 ---
 
