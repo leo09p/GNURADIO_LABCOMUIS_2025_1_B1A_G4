@@ -2,7 +2,7 @@
 ## Universidad Industrial de Santander
 
 
-# Práctica 1: TÍTULO PRÁCTICA
+# Práctica 2:
 
 ### Integrantes
 - **Leonel Ricardo Araque Carreño** - 2204224
@@ -13,7 +13,7 @@ Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones
 Universidad Industrial de Santander
 
 ### Fecha
-12 de Marzo de 2025
+20 de Marzo de 2025
 
 ---
 
