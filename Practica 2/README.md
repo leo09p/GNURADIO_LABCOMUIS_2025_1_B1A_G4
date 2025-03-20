@@ -42,5 +42,13 @@ A través de estos experimentos, se busca comprender cómo se pueden mitigar las
 
 
 ### Conclusiones
-Se sintetizan los principales aportes y puntos relevantes de la práctica, evitando repetir lo ya consignado en las otras secciones del informe. 
+Se observó que el canal de transmisión afecta significativamente la calidad de la señal, introduciendo fenómenos como atenuación, ruido y distorsión. Estos efectos varían dependiendo del medio de transmisión utilizado (cable coaxial corto, cable largo o antena).
+En el cable coaxial corto, la señal se conserva mejor, con mínima atenuación y menos interferencias.
+En el cable coaxial largo, la señal experimenta una mayor atenuación, especialmente en altas frecuencias.
+En la transmisión por antena, la señal es más susceptible a la interferencia y la pérdida de energía, agravándose con la distancia entre transmisor y receptor
+
+
+Se evidenció que el ruido puede afectar tanto la amplitud como la estructura espectral de la señal, reduciendo su calidad. A través de filtrado y ajustes en la ganancia del receptor, se pudo mitigar parte del ruido y mejorar la SNR.
+
+Al aplicar filtros, se observó que la eliminación de altas frecuencias suaviza la señal, mientras que la eliminación de bajas frecuencias la hace más oscilatoria. También se confirmó que eliminar los primeros armónicos puede afectar significativamente la estructura de la señal.
 
