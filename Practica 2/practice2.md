@@ -197,8 +197,27 @@ Familiarizarse con los efectos de los fenómenos de un canal alámbrico e inalá
 ### Preguntas Orientadoras
 
 - ¿Cómo se evidencian los diferentes fenómenos de canal en la señal recibida?
+
+estos fenomenos se muestran con: 
+*Atenuación: La amplitud de la señal después del filtro es menor que la señal original,se debilita debido a la distancia, las pérdidas en el medio de propagación.
+*Ruido Adicional:En la señal después del filtro, especialmente en la componente imaginaria, hay pequeñas variaciones en la amplitud que no estaban en la señal original.
+*Distorsión de Banda:La forma de la onda cuadrada original se convierte en una onda más suavizada después del filtro.
+entre otros como lo puede ser el desplazamiento de la fase, entre la real y la imaginaria
+
 - ¿Cómo se pueden mitigar los efectos del canal en la señal recibida?
 
-### Evidencia
+  para mitigar estos efectos dependiendo de cada medio se puede implementar un metodo, puede ser aumentando la potencia de transmicion, hacer un mejor ajuste en el filtrado,
+  es posible que algunos dispositivos cerca puedan hacer un poco de interferencia en la frecuencia portadora, ajustando tambien la ganancia del receptor 
 
-*(Adjuntar las evidencias de la práctica en el Aula Virtual: capturas de pantalla, observaciones, cálculos o mediciones preliminares)*
+### Evidencia
+Señal con cable corto
+![imagena4_1](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%204/captura2_4cc.png?raw=true)
+
+Señal con cable largo
+![imagena4_2](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%204/captura2_4cl.png?raw=true)
+Señal con antena cerca
+![imagena4_3](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%204/captura2_4antcerca.png?raw=true)
+
+Señal con antena alejada
+![imagena4_4](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%204/captura2_4antlejos.png?raw=true)
+
