@@ -118,6 +118,7 @@ podemos ver claramente cómo tanto la onda triangular como la cuadrada mantienen
 - Usando antenas, ¿cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? ¿Es posible compensar el fenómeno?
   Al aumentar la distancia entre el transmisor y el receptor, la amplitud de la señal medida disminuye debido a la dispersión y absorción de la energía en el espacio. En la primera medición (23 cm), la amplitud es de 82.74 mV, mientras que en la segunda (46 cm), la amplitud cae a 33.39 V, lo que indica una atenuación significativa.Este fenómeno puede compensarse aumentando la potencia de transmisión, utilizando antenas de mayor ganancia o incorporando amplificadores de señal en el receptor para recuperar parte de la energía perdida.
 - ¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?
+- 
 El cable corto es la mejor opción en términos de calidad de señal, ya que minimiza la atenuación y mantiene la amplitud original.
 ### Evidencia
 ![imagena5c](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%202/act2P5cuadrada_2.jpg)
