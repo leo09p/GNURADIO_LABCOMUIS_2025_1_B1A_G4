@@ -39,7 +39,7 @@ Esta práctica tiene como propósito analizar estos fenómenos mediante la simul
 A través de estos experimentos, se busca comprender cómo se pueden mitigar las degradaciones del canal mediante técnicas como el filtrado y el ajuste de parámetros de transmisión, permitiendo optimizar la comunicación y mejorar la eficiencia en la transmisión de datos.
 
 ### Procedimiento
-
+El procedimiento detallado, junto con la configuración de los equipos y los pasos seguidos en cada actividad, se encuentra documentado en el archivo correspondiente a la práctica. En este informe se presentan los resultados obtenidos, el análisis de los efectos del canal en la señal y las conclusiones derivadas del experimento.
 
 ### Conclusiones
 Se observó que el canal de transmisión afecta significativamente la calidad de la señal, introduciendo fenómenos como atenuación, ruido y distorsión. Estos efectos varían dependiendo del medio de transmisión utilizado (cable coaxial corto, cable largo o antena).
