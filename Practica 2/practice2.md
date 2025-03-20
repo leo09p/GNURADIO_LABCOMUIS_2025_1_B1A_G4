@@ -145,19 +145,41 @@ Familiarizarse con los fenómenos de un canal alámbrico real en el dominio de l
 ### Preguntas Orientadoras
 
 - ¿Cuál es el efecto del ruido sobre la respuesta en frecuencia de las señales medidas en el analizador de espectro? ¿Conservan las mismas relaciones que se evidencian en la simulación?
+
+El ruido no cambia la frecuencia de las señales, ya que el pico sigue siendo el mismo al de la simulacion,Sin embargo, el ruido sí afecta las partes laterales de la señal, especialmente en la onda cuadrada, donde los armónicos se ven un poco más difusos.
+  
 - ¿La relación señal a ruido creada intencionalmente desde el computador se amplifica o se reduce en la señal observada en el analizador de espectro?
 - Adjunte la evidencia de la medición de la relación señal a ruido de dos formas de onda distintas.
+  
+  El ruido añadido en la simulación afecta directamente la señal medida en el analizador de espectro, reduciendo la relación señal a ruido (SNR). Al comparar las señales sin ruido con las que tienen (señal senoidal y señal cuadrada, se observa que el nivel de ruido aumenta y la diferencia con la señal principal disminuye.Al agregar ruido desde el computador, la calidad de la señal empeora, tal como se refleja en las mediciones reales.
+  
 - ¿Cómo se evidencia el fenómeno de desviación de frecuencia en el analizador de espectro? Evidenciar al menos con dos formas de onda.
+
+El fenómeno de desviación de frecuencia en el analizador de espectro se evidencia cuando el ruido o la distorsión afectan la señal, provocando una dispersión en la energía espectral. En las mediciones, la señal cuadrada sin ruido muestra un pico bien definido en su frecuencia central, mientras que las señales con ruido presentan un ensanchamiento y difuminado de los armónicos, lo que indica que la energía se distribuye más ampliamente en el espectro.
+
 - Determine la afectación de un medio de transmisión coaxial (usar cables largos) sobre una señal periódica operando a las capacidades máximas de muestreo del USRP.
+  
+  El uso de cables largos afecta la señal periódica operando a las capacidades máximas de muestreo del USRP al introducir atenuación y dispersión en el dominio de la frecuencia, con cable largo, se observa un ensanchamiento del espectro y una mayor atenuación en los armónicos en comparación con las imágenes previas sin el cable largo. Esto indica que el cable introduce pérdidas, afectando la fidelidad de la señal al reducir la amplitud de los componentes de alta frecuencia, lo que resulta en una distorsión temporal y una menor calidad de transmisión de las señales.
+  
   - **NOTA:** La frecuencia de transmisión no debe superar los 1000 MHz para ser observada en el analizador. Para el experimento, considere las relaciones de muestreo correspondientes.
 - Usando cables coaxiales de diferentes longitudes, ¿cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida?
+
+El uso de cables coaxiales de diferentes longitudes afecta la amplitud de la señal medida debido a la atenuación y dispersión introducidas por el medio de transmisión. A medida que la distancia entre el transmisor y el receptor aumenta, la señal sufre una mayor atenuación, lo que se traduce en una reducción de la amplitud de los componentes espectrales, especialmente en frecuencias más altas.
+  
 - Usando antenas, ¿cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? ¿Es posible compensar el fenómeno?
+
+Al aumentar la distancia entre el transmisor y el receptor, la amplitud de la señal medida disminuye debido a la atenuación de la propagación en el espacio libre y a posibles reflexiones o interferencias.
+  
 - ¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?
+- 
+  El cable corto es la mejor opción por su menor atenuación y mejor calidad de señal. El cable largo tiene más pérdidas, y la antena sufre mayor atenuación con la distancia.
 
 ### Evidencia
 
-*(Adjuntar las evidencias de la práctica en el Aula Virtual: capturas de pantalla, observaciones, cálculos o mediciones preliminares)*
-
+![imagena3_1](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%203/Act3P1cuadr.jpg)
+![imagena3_2](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%203/Act3P2cuadr.jpg)
+![imagena3_4](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%203/Act3P4cuadr.jpg)
+![imagena3_6](https://github.com/leo09p/GNURADIO_LABCOMUIS_2025_1_B1A_G4/blob/main/Practica%202/Actividad%203/Act3P6_42cm.jpg)
 ## Actividad 4: Efectos de los fenómenos de canal en la conversión de frecuencia
 
 ### Objetivo
